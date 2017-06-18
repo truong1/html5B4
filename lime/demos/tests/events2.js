@@ -43,7 +43,7 @@ test.start = function() {
 
 	        var box2 = (new lime.Sprite)
     	        .setSize(10, 10)
-    	        .setPosition(-30, -30)
+    	        .setPosition(0, -30)
     	        .setFill(150, 0, 0);
 
 	        var bl = (new lime.Layer).setPosition(100 * c, 100 * r);
